@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "todo-reactnative",
-    "slug": "todo-reactnative",
+    "name": "typeapp",
+    "slug": "typeapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "me.itsarraj.todoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "androidNavigationBar": {
-      "visible": "immersive"
+    "extra": {
+      "eas": {
+        "projectId": "690ab2a8-323a-4269-9ba0-b36c5d95b52e"
+      }
     }
   }
 }
